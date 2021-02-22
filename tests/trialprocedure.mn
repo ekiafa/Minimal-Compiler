@@ -1,0 +1,23 @@
+program trialprocedure{
+	declare a,b,c,don;
+
+	procedure two(inout don) {
+		{
+			if(a>=b) then { 
+				b:=100;
+				don:=don+1
+			}
+			else a:=11
+		}
+	}
+
+	{
+		a:=10;
+		b:=0;
+		forcase when (a<b): a:=a+100
+		default : a:=a+10;
+		don:=a*150;
+		call two(inout don);
+		print (don)
+	}
+}

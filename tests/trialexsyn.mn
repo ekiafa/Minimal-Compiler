@@ -1,0 +1,29 @@
+program trialexsyn{
+	declare a,b,c;
+
+	function one(in x,inout y){
+		declare d;
+
+		function P11(in w){
+			declare e;
+			{
+				e:=w+x;
+				return(e)
+			}
+		}
+		{
+			d:=P11(in x);
+			y:=x+d;
+			return (y)
+		}
+	}
+	{
+		b:=10;
+		c:=250;
+		a:=one(in 10,inout b);
+	/* what */
+		forcase 
+			when (c=b) : a:=200
+			default: a:=135
+	}
+}

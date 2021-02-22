@@ -1,0 +1,9 @@
+program trialwhile {
+	declare a,b;
+	{
+		a:=10;
+		b:=0;
+		if (a>b) then b:=12 else a:=13;
+		while(a<b)
+	}
+}

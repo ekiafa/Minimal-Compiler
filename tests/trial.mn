@@ -1,0 +1,31 @@
+program trial{
+	declare a,b,c,don;
+
+	function one(in a) {
+		{	
+			b:=100;
+			if (a<=b) then a:=a+100 else b:=b-50;
+			return(a)
+		}
+	}
+
+	function two(inout don) {
+		{
+			while (a<=b){
+				a:=a+20
+			};
+			don:=don+10;
+			return(don)
+		}
+	}
+
+	{
+		a:=10;
+		b:=one(in a);
+		forcase when (a<b): a:=a+100
+		default : a:=a+10;
+		don:=a*150;
+		don:=two(inout don);
+		print (don)
+	}
+}

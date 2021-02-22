@@ -1,0 +1,11 @@
+program newprog{
+	declare a,b,c,don;
+	{
+		b:=10;
+		a:=1;
+		forcase when (a<b): a:=a+1
+		default : a:=a+2;
+		don:=a*2;
+		print (don)
+	}
+}

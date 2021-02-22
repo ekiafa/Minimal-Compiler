@@ -1,0 +1,9 @@
+program expressTest {
+	declare a, b,c;
+    {
+		b := 8 / 4;
+		a := 6 + 2 + 7 + 5;
+	    c := 3 + a + b;
+		print(c)
+    }
+}
