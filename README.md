@@ -7,7 +7,8 @@ Minimal++ is a minimal programming language developed for the Compilers course @
 
 
 File extensions
-.min Files
+
+#.min Files
 
 Minimal++ programs.
 .int Files
