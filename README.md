@@ -7,23 +7,23 @@ Minimal++ is a minimal programming language developed for the Compilers course @
 
 
 File extensions
-
-> .min Files
-
 Minimal++ programs.
-> .int Files
+> .mn Files
 
 Intermediate code files.
-> .c Files
+> .int Files
 
 Equivalent programs in ANSI C. ( Does not support minimal++ programs with declared functions )
-> .asm Files
+> .c Files
+
 
 Final code programs in assembly MIPS.
+> .asm Files
 
-Python version
 
+<h3>Python version</h3>
 v3.6.0
+
 Execution
 
 Run: ./minimal++.py [infile]
