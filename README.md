@@ -27,3 +27,6 @@ v3.6.0
 Execution
 
 Run: ./minimal++.py [infile]
+
+<h3>Authors</h3> 
+Eftihia Kiafa,Anestis Kirkenidis
