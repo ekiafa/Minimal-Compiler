@@ -8,16 +8,16 @@ Minimal++ is a minimal programming language developed for the Compilers course @
 
 File extensions
 
-#.min Files
+> .min Files
 
 Minimal++ programs.
-.int Files
+> .int Files
 
 Intermediate code files.
-.c Files
+> .c Files
 
 Equivalent programs in ANSI C. ( Does not support minimal++ programs with declared functions )
-.asm Files
+> .asm Files
 
 Final code programs in assembly MIPS.
 
